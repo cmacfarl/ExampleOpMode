@@ -1,8 +1,10 @@
 
 This project is an example of a collection of
 FTC OpModes that builds with the library implementation
-of Qualcomm's ftc_app.
+of Qualcomm's ftc_app found here
 
+  https://github.com/cmacfarl/ftc_app
+  
 It includes the ftc_app library via a change to the 
 settings.gradle and build.gradle file.
 
@@ -13,7 +15,7 @@ Add the following to settings.gradle:
     project(':FtcLib').projectDir = 
             new File(settingsDir, '../ftc_lib/ftc_app/FtcRobotController')
 
-Add the following to build.gradle:
+and the following to build.gradle:
 
     repositories {
         flatDir {
@@ -27,7 +29,8 @@ Add the following to build.gradle:
     }
 
 The path to the ftp_app directory is relative you where this project 
-is stored.
+is stored.  If you clone this repository you will need to change
+those relative directories appropriately.
 
 The ftc_app library looks in a resource file for the
 list of OpModes to register.
