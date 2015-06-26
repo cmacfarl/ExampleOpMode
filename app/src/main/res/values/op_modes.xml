@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="op_mode_classpath">team25.testbot</string>
+    <string-array
+        name="op_mode_list">
+            <item>NullOp</item>
+    </string-array>
+</resources>
+

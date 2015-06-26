@@ -1,0 +1,4 @@
+include ':app'
+include ':FtcLib'
+
+project(':FtcLib').projectDir = new File(settingsDir, '../ftc_lib/ftc_app/FtcRobotController')
